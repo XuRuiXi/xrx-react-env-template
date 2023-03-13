@@ -1,12 +1,11 @@
 import React from 'react';
 
-const TsCop = () => {
+const Home = () => {
   return (
     <div>
-      REACT环境
+      home
     </div>
   );
 };
 
-
-export default TsCop;
+export default Home;

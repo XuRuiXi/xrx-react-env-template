@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.tsx',
+  entry: './src/index.js',
   performance: {
     "maxAssetSize": 5 * 1024 * 1024 // 打包的asset资源，超过5m会提示
   },
