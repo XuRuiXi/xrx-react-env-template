@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './public.css';
 import styles from './index.less';
-import Home from './pages/Home';
+import Home from '@/pages/Home';
 
 
 const App = () => {
